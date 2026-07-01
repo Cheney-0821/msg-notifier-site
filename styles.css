@@ -120,6 +120,7 @@ details p,
     linear-gradient(135deg, #ffffff, #eef2ff);
   box-shadow: var(--shadow);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 28px;
@@ -202,6 +203,14 @@ details:first-of-type {
 summary {
   cursor: pointer;
   font-weight: 700;
+}
+
+.mock-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+  text-align: center;
 }
 
 .download-note {
