@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime / logs
+*.log
+*.tmp
+feedback_issues.json
+update_state.json
+
+# Python / build artifacts that should never be in this public site repo
+__pycache__/
+*.pyc
+build/
+dist/
+Output/
+_raw/
+
+# Private project docs
+CLAUDE.md
+PROGRESS.md
+继续指南.txt
+_项目交接文档.txt
