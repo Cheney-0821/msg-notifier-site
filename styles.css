@@ -205,6 +205,16 @@ summary {
   font-weight: 700;
 }
 
+.notice-list p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin: 0 0 12px;
+}
+
+.notice-list p:last-child {
+  margin-bottom: 0;
+}
+
 .mock-note {
   margin: 14px 0 0;
   color: var(--muted);
